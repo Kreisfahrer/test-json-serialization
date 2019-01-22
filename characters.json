@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Legolas",
+    "level": 12,
+    "ability_scores": {
+      "str": 11,
+      "dex": 12,
+      "con": 10,
+      "int": 16,
+      "wis": 14,
+      "cha": 13
+    },
+    "hp": 20,
+    "__type__": "elf"
+  },
+  {
+    "name": "Tranduil",
+    "level": 13,
+    "ability_scores": {
+      "str": 11,
+      "dex": 12,
+      "con": 25,
+      "int": 16,
+      "wis": 14,
+      "cha": 13
+    },
+    "hp": 35,
+    "__type__": "elf"
+  },
+  {
+    "name": "Demon Hunter",
+    "level": 17,
+    "ability_scores": {
+      "str": 18,
+      "dex": 12,
+      "con": 13,
+      "int": 16,
+      "wis": 14,
+      "cha": 13
+    },
+    "hp": 23,
+    "__type__": "elf"
+  }
+]

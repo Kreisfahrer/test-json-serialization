@@ -1,0 +1,8 @@
+*.pyc
+/.idea
+/.pytest_cache
+/.venv
+/venv
+/backup
+/test
+/__pycache__
