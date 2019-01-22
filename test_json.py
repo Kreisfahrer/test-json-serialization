@@ -1,12 +1,12 @@
 import json
 from pathlib import Path
+from typing import List
 
-from characters import decode_characters, CharacterEncoder
+from characters import decode_characters, CharacterEncoder, Elf
 from hamcrest import *
 
 
-
-def read_characters_from_file():
+def read_characters_from_file() -> List[Elf]:
     characters_file = Path('./characters.json')
     with characters_file.open() as stream:
         characters = json.load(stream, object_hook=decode_characters)
